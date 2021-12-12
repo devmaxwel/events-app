@@ -7,7 +7,7 @@ const AllEvents=() =>{
             id: 'm1',
             title: 'NSG Event',
             image:
-              'https://biggestkaka.co.ke/wp-content/uploads/2020/12/sautisol_131309203_575786279951057_1217429930507280897_n.jpg',
+              'https://mdundo.com/media/articles/1608237007_7366_b.jpg',
             address: 'Meetupstreet 5, 12345 Meetup City',
             description:
               'This is a first, amazing event which you definitely should not miss. It will be a lot of fun!',
