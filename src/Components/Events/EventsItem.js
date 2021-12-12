@@ -1,0 +1,27 @@
+import React from 'react';
+import UICard from '../Interface/UICard';
+import classes from './EventItem.module.css';
+
+function EventsItem(props) {
+    return (
+       <UICard>
+            <li className={classes.item}>
+                <div  className={classes.image}>
+                <img src={props.image} alt={props.title} />
+                </div>
+
+                <div className={classes.content}>
+                    <h3>{props.title}</h3>
+                    <address>{props.address}</address>
+                    <p>{props.description}</p>
+                </div>
+
+                <div className={classes.actions}>
+                    <button>To Favorites</button>
+                </div>
+            </li>
+       </UICard>
+    )
+}
+
+export default EventsItem;
