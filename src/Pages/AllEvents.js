@@ -1,26 +1,26 @@
 import React from 'react'
 import EventsList from '../Components/Events/EventsList';
 
-const AllEvents=()=>{
+const AllEvents=() =>{
     const DUMMY_DATA =[
         {
             id: 'm1',
-            title: 'This is a first meetup',
+            title: 'NSG Event',
             image:
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
+              'https://biggestkaka.co.ke/wp-content/uploads/2020/12/sautisol_131309203_575786279951057_1217429930507280897_n.jpg',
             address: 'Meetupstreet 5, 12345 Meetup City',
             description:
-              'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
+              'This is a first, amazing event which you definitely should not miss. It will be a lot of fun!',
           },
 
           {
             id: 'm2',
-            title: 'This is a second meetup',
+            title: 'Sauti Sol Concert',
             image:
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
+              'https://ocdn.eu/pulscms-transforms/1/XsYk9kqTURBXy9hZjBlNjE0YWMyYWUwYmM5M2VmYjQ2MjIzMjQzMmFmMy5qcGVnkZUCzQKAzQFowsOCoTAFoTEB',
             address: 'Meetupstreet 5, 12345 Meetup City',
             description:
-              'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
+              'This is the Second, amazing event which you definitely should not miss. It will be a lot of fun!',
           },
 
 
