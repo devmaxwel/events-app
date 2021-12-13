@@ -46,9 +46,21 @@
     margin-left: 0.5rem;
   }
 
+  .mobilemenu{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+
+  }
+
 
   @media(max-width: 845px){
     .header ul{
       display: none;
+    }
+
+    .mobilemenu{
+      display: block;
     }
   }

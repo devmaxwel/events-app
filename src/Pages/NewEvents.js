@@ -1,12 +1,10 @@
 import React from 'react'
 import NewEventForm from '../Components/Events/NewEventForm';
-import {useHistory} from 'react-router-dom'
+import {useHistory} from 'react-router-dom';
 function NewEvents(){
     const history = useHistory();
 
     // We want to navigate away from the form after clicking the submit and we will make use of useHistory
-
-  
 
      function addEventHandler(events_Data){
         //  fetch is used to send http request.
