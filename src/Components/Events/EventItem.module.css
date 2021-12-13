@@ -1,5 +1,8 @@
 .item {
     margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap:20px;
   }
   
   .image {
@@ -45,3 +48,4 @@
   .actions button:active {
     background-color: #ffe2ed;
   }
+

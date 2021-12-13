@@ -27,7 +27,9 @@ function EventsItem(props) {
 
     return (
 
-       <UICard>
+        <div>
+
+       <UICard  >
             <li className={classes.item}>
                 <div  className={classes.image}>
                 <img src={props.image} alt={props.title} />
@@ -45,6 +47,8 @@ function EventsItem(props) {
             </li>
 
        </UICard>
+
+       </div>
     )
 }
 
