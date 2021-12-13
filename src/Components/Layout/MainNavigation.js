@@ -1,11 +1,11 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import {useContext} from 'react';
 import classes from './MainNavigation.module.css';
 import FavoritesContext from '../../Context/Favorites-Context';
 function MainNavigation() {
 
-    const [responsive, setResponsive] = useState(false);
+
 
     const provideContext = useContext(FavoritesContext);
 
@@ -23,11 +23,7 @@ function MainNavigation() {
                         </ul>
                 </nav>
 
-                <div className={classes.mobilemenu}>
-                    {responsive ? <i class='fas fa-times'></i> :
-                    <i class='fas fa-bars'></i> }
-
-                </div>
+              
 
        </header>
     )
